@@ -24,5 +24,6 @@ function tossCoin(e) {
     }
     message.innerHTML += output + `<br/> Player : ${score[0]}---Computer : ${score[1]}`;
 }
+tossCoin();
 
 
