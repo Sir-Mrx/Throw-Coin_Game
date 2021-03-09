@@ -6,7 +6,7 @@ const buttons = document.querySelectorAll("button");
 console.log(buttons);
 for (let num = 0; num < buttons.length; num++) {
     console.log(buttons[num]);
-    buttons[i].addEventListener("click", tossCoin());
+    buttons[i].addEventListener("click", tossCoin);
 }
 function tossCoin(e) {
     let playerGuess = e.target.innerText;
